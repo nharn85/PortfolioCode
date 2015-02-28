@@ -17,7 +17,7 @@
                             <a href="http://twitter.com/nmacd85" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                         </li>
                         <li>
-                            <a href="http://instagram.com/nmacd85/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                            <a href="https://github.com/nmacd85/PortfolioCode" class="btn btn-default btn-lg socialBtn" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
                         </li>
                     </ul>
                 </div>
