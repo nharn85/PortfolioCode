@@ -12,7 +12,7 @@
     <div class="col-lg-5 col-md-5">
         <h1>Project Details:</h1>
         <p>For this project, we needed to create a secure login that would lead into the Chinook "music store" and display a table
-        of tracks and their respective information. In addition you were able to add a track to the cart using a session based cart method.</p>
+        of tracks and their respective information from the Chinook database. In addition you were able to add a track to the cart using a session based cart method.</p>
         <p>It was also required to add an AJAX type of search, and an additional feature to enhance the experience. I was able to implement the datatables plug-in
         and a tooltip effect to show the album that the track was from.</p>
 
@@ -26,6 +26,9 @@
             </li>
             <li>
                 <span>Skills / Tools Used:</span> HTML5 &bull; CSS3 &bull; JS &bull; 3-Tier PHP &bull; MySQL &bull; AJAX
+            </li>
+            <li>
+                <span>Git Repo:</span> <a href="https://github.com/nmacd85/PortfolioCode/tree/master/ChinookShopping" target="_blank">Code for Chinook Music Store</a>
             </li>
         </ul>
     </div>
