@@ -1,0 +1,216 @@
+/* CUSTOM CSS */
+
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:400,700);
+
+/*  Background */
+
+html { 
+  background: url(../img/stone_house3.jpg) no-repeat center left fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	background-color: transparent;
+  /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+ /*Heading */
+#logo{
+    margin-bottom: .8%;
+    width: 35%;
+}
+
+/* Navigation */
+.top-bar-section ul li a{
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+ul li.active{
+  background: #8e3936;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+  background: #8e3936;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover{
+  background: #8e3936;
+}
+
+ .top-bar-section ul li{
+  text-align: center;
+ }
+
+/* small nav - active color*/
+.top-bar-section ul li.active > a {
+  background: #8e3936;
+}
+
+ul li.active > a {
+  background: #8e3936;
+}
+
+ .top-bar-section ul li.active > a:hover {
+    background: #8e3936;
+}
+
+
+/* Main Content styles */
+.panel{
+	margin:0;
+  border: none;
+  background: rgb(255, 255, 255); /* fallback */
+  background: rgba(255, 255, 255, 0.7); /* 50% transparent */
+}
+
+
+.main-about, .main-beer{
+  margin-bottom:75px;
+}
+
+.main{
+  margin-top: 30px;
+}
+
+h2{
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+h3{
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.main-beer{
+  height: 300px;
+}
+
+.main-entertain{
+  margin-bottom: 30px;
+}
+
+.main-menu{
+  margin-bottom: 10px;
+}
+
+.main-menu p{
+  font-size: 1.2em;
+}
+
+p img{
+  width: .9em;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+
+.tooltip {
+  display:none;
+  position:absolute;
+  border:1px solid #3f3d41;
+  background-color:#8e3936;
+  border-radius:5px;
+  padding:10px;
+  color:#fff;
+  font-size:14px;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.button{
+  background-color: #8e3936;
+}
+
+.button:hover{
+  background-color: #3f3d41;
+}
+
+a.main-contact{
+  color:#8e3936;
+}
+
+.main strong{
+  font-size: 1.3em;
+}
+
+.button{
+  font-family: 'Cabin Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+
+/* Home page */
+#building{
+  max-height: 70%;
+  border: 10px solid #0C0D0F;
+}
+
+/* Footer Style */
+.footer {
+  background: rgb(193, 179, 170); /* fallback */
+  background: rgba(193, 179, 170, 0.8); /* 50% transparent */
+  text-align: center;
+  color: #0C0D0F;
+}
+.footer i {
+  font-size: 100px;
+}
+
+.footer ul{
+  list-style-type: none;
+}
+
+.footer .footer1{
+  font-size: 1.7em;
+  padding: .3em 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#location{
+  margin-top: 2em;
+  width: 500px;
+}
+
+.footer .footer3{
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.footer .ent{
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+.footer .ent a{
+  text-transform: none;
+  color: #8e3936;
+}
+
+.footer .ent a:hover{
+  color: #572321;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    min-height: 200px;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}

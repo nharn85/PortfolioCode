@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quizzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtTitle">Quizzer</string>
+    <string name="txtName"></string>
+    <string name="btnStart">Start</string>
+    <string name="title_activity_quiz_screen">QuizScreen</string>
+    <string name="title_activity_final_screen">FinalScreen</string>
+    <string name="tvEnterName">Enter Name&#8230;</string>
+    <string name="txtYouScored"> you scored:</string>
+    <string name="tvScore"></string>
+    <string name="tvTerm"></string>
+    <string name="btnOne"></string>
+    <string name="btnTwo"></string>
+    <string name="btnThree"></string>
+    <string name="btnFour"></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnAgain">Play Again?</string>
+    <string name="title_activity_add_movie">AddMovie</string>
+
+</resources>

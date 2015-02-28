@@ -1,0 +1,76 @@
+/* table styles */
+
+table, tr{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+#addTable, #editTable{
+    width: 400px;
+}
+
+input {
+    vertical-align: middle;
+}
+td, th {
+    font-size: 1em;
+    border: 1px solid #624c84;
+    padding: 3px 7px 2px 7px;
+}
+
+th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #624c84;
+    color: #ffffff;
+}
+
+#username{
+    align-content: center;
+}
+
+#search{
+    float: left;
+}
+
+#add{
+    float: left;
+}
+
+#logout{
+    float: right;
+}
+
+#logout-delete{
+    float: left;
+}
+
+#edit, #delete{
+    margin-right: auto;
+    margin-left: auto;
+    height: 15px;
+    width: 15px;
+}
+
+#back, #next{
+    height: 50px;
+    width: 50px;
+}
+
+#back{
+    float: left;
+}
+
+#next{
+    float: clear;
+    float: right;
+}
+
+.paging-back{
+    float: left;
+}

@@ -37,6 +37,9 @@
             <li>
                 <span>Website:</span> <a href="http://www.nicolemacdougall.ca">www.nicolemacdougall.ca</a>
             </li>
+            <li>
+                <span>Git Repo:</span> <a href="https://github.com/nmacd85/PortfolioCode/tree/master/nicolemacdougall.ca" target="_blank">Code for nicolemacdougall.ca</a>
+            </li>
         </ul>
     </div>
     <div class="col-lg-7 col-md-7 content-area">

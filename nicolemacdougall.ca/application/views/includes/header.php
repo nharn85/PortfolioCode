@@ -74,14 +74,6 @@
                 $('#preloader').delay(2000).fadeOut('slow'); // will fade out the white DIV that covers the website.
                 $('body').delay(2000).css({'overflow':'visible'});
             })
-//            $(document).ready(function() {
-//                $(window).load(function() {
-//                    $("#preloader").fadeOut('slow', function() {
-//                        $(this).remove()
-//                    })
-//                })
-//            })
-            //]]>
         </script>
 <!--    --><?php //endif ?>
 </head>

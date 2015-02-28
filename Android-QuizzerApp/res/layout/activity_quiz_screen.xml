@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    tools:context="com.nicolem.quizzer.QuizScreen" >
+
+    <TextView
+        android:id="@+id/tvTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="@string/tvTerm"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTerm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/btnOne" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOne"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnTwo" />
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTwo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnThree" />
+
+    <Button
+        android:id="@+id/btnFour"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnThree"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnFour" />
+
+</RelativeLayout>
