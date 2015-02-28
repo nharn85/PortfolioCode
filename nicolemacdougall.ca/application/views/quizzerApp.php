@@ -25,6 +25,9 @@
             <li>
                 <span>Skills / Tools Used:</span> Eclipse &bull; Android XML &bull; Java &bull; Hashmap &bull; Arraylists &bull; File I/O &bull; Intents
             </li>
+            <li>
+                <span>Git Repo:</span> <a href="https://github.com/nmacd85/PortfolioCode/tree/master/Android-QuizzerApp" target="_blank">Code for Quizzer App</a>
+            </li>
         </ul>
     </div>
     

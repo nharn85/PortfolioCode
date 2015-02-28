@@ -30,6 +30,9 @@
             <li>
                 <span>Website:</span> <a href="http://www.nicolemacdougall.ca/growlingbear" target="_blank">Growling Bear Brew Pub</a>
             </li>
+            <li>
+                <span>Git Repo:</span> <a href="https://github.com/nmacd85/PortfolioCode/tree/master/growlingbear" target="_blank">Code for Growling Bear Fictional Site</a>
+            </li>
         </ul>
     </div>
 
