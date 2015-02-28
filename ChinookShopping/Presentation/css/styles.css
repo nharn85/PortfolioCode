@@ -1,0 +1,68 @@
+body{
+    font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: .9em;
+}
+
+header{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+    background-color: #eeeeee;
+}
+
+table.t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table.t01 tr:nth-child(odd) {
+    background-color:lightseagreen;
+}
+table.t01 th	{
+    background-color: dodgerblue;
+    color: black;
+}
+
+#cart{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    padding: 2px;
+}
+
+#cartpic{
+    width:35px;
+}
+
+.shoppingcart{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.shoppingcart td{
+    text-align: center;
+    height: 20px;
+}
+
+#question{
+    width: 12px;
+}
+
+.tooltip {
+    display:none;
+    position:absolute;
+    border:1px solid #3f3d41;
+    background-color: darkseagreen;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    font-size:14px;
+}
+
+.footer{
+    text-align: center;
+}

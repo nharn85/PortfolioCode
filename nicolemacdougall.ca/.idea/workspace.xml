@@ -35,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fictionalPubSite.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fictionalPubSite.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/fictionalPubSite.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2690678" vertical-offset="248" max-vertical-offset="1545">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state vertical-scroll-proportion="-15.291667" vertical-offset="248" max-vertical-offset="1545">
+              <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8601695" vertical-offset="764" max-vertical-offset="1260">
+              <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -241,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../inet2005nm/ChinookShopping" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
@@ -362,16 +372,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.916667" vertical-offset="788" max-vertical-offset="1260">
-          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -425,8 +427,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/fictionalPubSite.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2690678" vertical-offset="248" max-vertical-offset="1545">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state vertical-scroll-proportion="-15.291667" vertical-offset="248" max-vertical-offset="1545">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8601695" vertical-offset="764" max-vertical-offset="1260">
+          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
           <folding />
         </state>
       </provider>
