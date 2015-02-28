@@ -1,0 +1,389 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400|Josefin+Sans:100,300,400,500|Satisfy|Raleway:600,500,400,300,200);
+
+.row{
+    margin: 10px 0;
+    padding: 0;
+}
+
+/* ============================= PRE-LOADER =====================================  */
+body {
+    overflow: hidden;
+}
+
+/*Preloader*/
+
+#preloader {
+    border: 1px solid green;
+    color: #000000;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index:99999;
+}
+
+#status {
+    /*border: 1px solid orange;*/
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url("../img/loader.GIF");
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px;
+    z-index: 99999;
+}
+
+/* =========================== Background =========================== */
+.gradient{
+    z-index: -10;
+    background: linear-gradient(45deg, #41314a, #a66a68);
+    /*#9e6266, #a76e68,*/
+    /*background: linear-gradient(90deg, #41314A, #a76e68,#c7254e,#219AB3);*/
+    background-size: 800% 100%;
+
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+/* =========================== BACKGROUND - header =========================== */
+/*.body{*/
+    /*padding-top: 40px;*/
+/*}*/
+
+.divider {
+    height:90px;
+}
+
+.divider .btn{
+    margin-top: 20px;
+}
+
+section.bg-1 {
+    height:400px;
+    padding-top:90px;
+    padding-bottom:40px;
+    overflow:auto;
+}
+
+.bg-1 {
+    background: url('../../assets/img/desktopHeroO.jpg') no-repeat center center fixed;
+    background-size:cover;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolioHead{
+    padding-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+}
+
+.portfolioHead2{
+    font-family: Raleway, sans-serif;
+}
+
+
+/* =========================== Home/Nav =========================== */
+.navbar-custom{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    background-color: rgb(65,48,75);
+    background-color: rgba(65, 48, 75, 0.84);
+}
+
+
+.navbar-right {
+    float: right!important;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 0 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+}
+/* Logo in sticky nav */
+#navLogo{
+    margin-top: -7px;
+    /*margin-left: 20px;*/
+    width: 80px;
+}
+
+/* fix top padding for mobile */
+@media screen and (width: 768px) {
+    #navLogo{
+        margin-top: -8px;
+    }
+}
+
+/* Main "hero" logo */
+/*#mainLogo{*/
+    /*max-width: 45%;*/
+    /*min-width: 250px;*/
+    /*padding-bottom: 20px;*/
+/*}*/
+
+/* fix top padding for mobile */
+@media screen and (max-width: 768px) {
+    #mainLogo{
+        padding: 40px 0;
+    }
+}
+
+/* =========================== Portfolio PAGE =========================== */
+.intro-body{
+    color: #000000;
+}
+
+.page-content{
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+
+.page-content h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+
+.page-content p,li{
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 400;
+}
+
+.page-content li>span{
+    font-weight: 600;
+}
+
+.page-content p{
+    margin-bottom: 5px;
+    letter-spacing: .5px;
+    line-height: 24px;
+}
+
+.page-content ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-content a{
+    color: #41304B;
+}
+
+.page-content a:active,
+.page-content a:visited{
+    color: #E7875D;
+}
+
+.item img{
+    width:100%;
+}
+
+.specs{
+    margin-top: 15px;
+}
+
+.specsList li{
+    margin-bottom: 10px;
+}
+
+#brewLogo{
+    background-color: #fff;
+}
+
+/* ==================== Content ==================== */
+/*.carousel-caption {*/
+    /*color: #fff;*/
+    /*text-shadow: none;*/
+/*}*/
+
+.content-area{
+    background-color: #513d5c;
+}
+
+.content-area img{
+    width: 95%;
+    border: 2px solid white;
+}
+
+.content-area h1{
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: none;
+}
+
+.content-area h2{
+    color: white;
+    font-family: Satisfy, cursive;
+    font-weight: 300;
+    font-size: 2.3rem;
+    text-transform: none;
+}
+
+.content-area p{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    line-height: 24px;
+}
+
+#final{
+    margin-bottom: 10px;
+}
+
+.content-area{
+    color: white;
+    font-size: 2rem;
+    text-transform: none;
+}
+
+@media screen and (max-width: 768px) {
+    .content-area img:last-child {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    #paddBottom img{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #paddBottom img{
+        margin-bottom: 0;
+    }
+}
+/* =========================== Contact =========================== */
+#contact{
+    background-color: #fff;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    margin-right: 0;
+}
+
+.contactHead{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.contactText{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .6px;
+    color: #000000;
+}
+
+.contactText a	 { color: #C75905;  font-weight: 500;}
+.contactText a:hover { color: #AB4D04; font-weight: 500; text-decoration: underline;}
+
+.btn-primary {
+    border-color: #41314A;
+    color: #FFFFFF;
+    background-color: #41314A;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active {
+    color: #fff;
+    background-color: #74627f;
+    border: 1px solid #41314A;
+}
+
+/* =========================== SOCIAL =========================== */
+
+.social{
+    background-color: transparent;
+    /*padding-bottom: 10px;*/
+}
+
+@media screen and (min-width: 1195px) {
+    .social{
+        padding-top: 30px;
+        /*padding-bottom: 30spx;*/
+    }
+}
+
+.btn {
+    text-transform: capitalize;
+    font-family: Raleway, sans-serif;
+    font-weight: lighter;
+    font-weight: 400;
+    letter-spacing: 1px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid white;
+    color: #FFFFFF;
+    background-color: #41314A;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #41314A;
+    outline: 0;
+    color: #41314a;
+    background-color: white;
+    font-weight: 400;
+}
+
+
+/* =========================== FOOTER =========================== */
+
+footer{
+    font-family: 'Satisfy', cursive;
+    font-size: 2.8em;
+    color: #fff;
+    background-color: #41304B;
+}
+
+

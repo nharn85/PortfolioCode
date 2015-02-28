@@ -1,0 +1,567 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400|Josefin+Sans:100,300,400|Satisfy|Raleway:600,500,400,200);
+
+/* ============================= PRE-LOADER =====================================  */
+body {
+	overflow: hidden;
+}
+
+ /*Preloader*/
+
+#preloader {
+	/*border: 1px solid green;*/
+	color: #000000;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff;
+	z-index:99999;
+}
+
+#status {
+	/*border: 1px solid orange;*/
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	background-image:url("../img/loader.GIF");
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px;
+	z-index: 99999;
+}
+
+/* =========================== Stop horizontal scroll =========================== */
+/**{border: 1px solid red;}*/
+
+.row{
+	margin: 0;
+	padding: 0;
+}
+
+/*html { font-size: 62.5%; }*/
+/*body { font-size: 14px; font-size: 1.4rem; } *//* =14px */
+/*h1   { font-size: 24px; font-size: 2.4rem; } *//* =24px */
+/*li   { font-size: 24px; font-size: 2.4rem; } *//* =24px */
+
+@media screen and (max-width: 400px){
+	#profile .content-section{
+		padding-top: 0;
+	}
+
+	#portfolio .content-section{
+		padding-top: 25px;
+	}
+
+	#profileHead{
+		margin-bottom: 0;
+	}
+}
+
+/* =========================== Background =========================== */
+.gradient{
+	z-index: -10;
+	background: linear-gradient(45deg, #41314a, #a66a68);
+	/*#9e6266, #a76e68,*/
+		/*background: linear-gradient(90deg, #41314A, #a76e68,#c7254e,#219AB3);*/
+ 	background-size: 800% 100%;
+
+	-webkit-backface-visibility: hidden;
+	-webkit-animation: AnimationName 30s ease infinite;
+	-moz-animation: AnimationName 30s ease infinite;
+	animation: AnimationName 30s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+/* =========================== BACKGROUND - header =========================== */
+.bgHeader{
+	/*background-attachment: fixed;*/
+	/*background-image: url("../img/header2.png");*/
+	/*background-position: top center;*/
+	/*background-repeat: repeat-x;*/
+	/*background-size: cover;*/
+	background-size: 100% 100%;
+	color: rgba(255, 255, 255, 0.8);
+	/*background-color: transparent;*/
+	/*padding: 0em 0 10em 0;*/
+	/*position: relative;*/
+	text-align: center;
+
+	background: #40304a; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #a77569 0%, #a46668 30%, #955b63 56%, #40304a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a77569), color-stop(30%,#a46668), color-stop(56%,#955b63), color-stop(100%,#40304a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #a77569 0%,#a46668 30%,#955b63 56%,#40304a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #a77569 0%,#a46668 30%,#955b63 56%,#40304a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #a77569 0%,#a46668 30%,#955b63 56%,#40304a 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #a77569 0%,#a46668 30%,#955b63 56%,#40304a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a77569', endColorstr='#40304a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+/* =========================== Home/Nav =========================== */
+nav.navbar.navbar-custom.navbar-fixed-top{
+	background-color: rgb(65,48,75);
+	background-color: rgba(65, 48, 75, 0.84);
+}
+
+/* Logo in sticky nav */
+#navLogo{
+	margin-top: 8.5px;
+	margin-left: 20px;
+	width: 80px;
+}
+
+/* fix top padding for tablet */
+@media screen and (max-width: 992px) {
+	#navLogo{
+		margin-top: 8px;
+	}
+
+	/*nav.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse{*/
+		/*background-color: rgb(65,48,75);*/
+		/*background-color: rgba(65, 48, 75, 0.84);*/
+	/*}*/
+}
+
+/* fix top padding for mobile */
+@media screen and (max-width: 767px) {
+	#navLogo{
+		margin-top: 12px;
+	}
+}
+
+/* fix top padding for mobile */
+@media screen and (width: 768px) {
+	#navLogo{
+		margin-top: 8px;
+	}
+}
+
+/* Nav font */
+.page-scroll{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+
+	/*  Aligns arrow w/ circle */
+	padding: 0;
+	margin: 0;
+}
+
+/* Main "hero" logo */
+#mainLogo{
+	width: 100%; /* fixed IE issue...needed a default size  */
+	max-width: 45%;
+	min-width: 250px;
+	padding-bottom: 20px;
+}
+
+
+
+/* fix top padding for mobile */
+@media screen and (max-width: 768px) {
+	#mainLogo{
+		padding: 40px 0;
+	}
+}
+
+/* Images to make up "hero" image */
+#header {
+		background-attachment: scroll;
+		background-image: url("../img/top-3200.svg");
+		background-position: bottom center;
+		background-repeat: repeat-x;
+		background-size: 3200px 460px;
+		color: rgba(255, 255, 255, 0.8);
+		background-color: transparent;
+		padding: 10em 0 10em 0;
+		position: relative;
+		text-align: center;
+}
+
+@media screen and (max-width: 400px){
+	#header{
+		padding: 5em 0 10em 0;
+	}
+}
+
+/* For arrow down, minor placement adjustments */
+#circle{
+	margin-top: 10px;
+}
+
+#arrow{
+	padding-top: 1.3rem;
+	font-size: 4.8rem;
+}
+
+.brand-heading{
+	margin: 0;
+	padding: 0;
+}
+
+/* Hero text font */
+.intro-text{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: lighter;
+	/*font-size: 2rem;*/
+	color: #fff;
+	padding: 0 0 30px 0;
+	margin: 0;
+}
+
+/* General color changes for sections */
+#profile, #skills, #portfolio{
+	color: #000;
+	background-color: #fff;
+}
+
+/* =========================== Profile =========================== */
+#profile {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+#profileHead{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-size: 3.5rem;
+	padding: 0 0 50px 0;
+}
+
+#profilePic{
+	border: 7px solid #724A58;
+	max-width: 200px;
+	min-width: 150px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	-webkit-border-radius: 180px;
+	-moz-border-radius: 180px;
+	border-radius: 180px;
+}
+
+#profileText{
+	text-align: justify;
+	margin-bottom: -10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	letter-spacing: .6px;
+	font-size: large;
+
+}
+
+/* =========================== Profile pt 2 =========================== */
+#profile2{
+	color: #fff;
+    padding: 0 20px 0 20px;
+    background-color: transparent;
+}
+
+#pencil, #globe, #camera{
+	font-size: 4rem;
+	margin: 15px 15px 25px 15px;
+}
+
+.pencil{
+	visibility: visible;
+}
+
+.globe{
+	visibility: visible;
+	-webkit-animation: bounceIn 0.4s;
+}
+
+.camera{
+	visibility: visible;
+	-webkit-animation: bounceIn 0.8s;
+}
+
+.profile2Head{
+	font-family: 'Satisfy', cursive;
+	font-size: x-large;
+}
+
+.profile2Text{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	letter-spacing: .6px;
+	line-height: 28px;
+	font-size: large;
+	/*max-width: 80%;*/
+}
+
+
+/* =========================== Skills =========================== */
+#skills{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.skillsHead{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-size: 2.5rem;
+	padding: 0 20px 0 20px;
+}
+
+.skillsText {
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: .6px;
+	line-height: 28px;
+	font-size: medium;
+
+}
+
+.skillItem{
+	text-align: left;
+	border: 2px solid #89565E;
+	color: #FFFFFF;
+	height: 45px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 35px;
+}
+
+.skillInner{
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 100%;
+	background-color: #89565E;
+	font-size: medium;
+}
+
+#sk1{ width: 90%;}
+#sk2{ width: 85%;}
+#sk3{ width: 95%;}
+#sk4{ width: 80%;}
+#sk5{ width: 85%;}
+
+#sk1.pull-right{ color: #000000;}
+
+.modalImage{
+	width: 100%;
+}
+
+@media screen and (max-width: 400px){
+	.downloadBtn{
+		margin-top: 20px;
+	}
+}
+
+
+/* =========================== Portfolio =========================== */
+#portfolio{
+	color: #fff;
+	background-color: transparent;
+	padding-top: 59px;
+	padding-bottom: 60px;
+	overflow-x: hidden;
+}
+
+.portfolioHead{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-size: 2.5rem;
+}
+
+.portfolioText{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	letter-spacing: .6px;
+}
+
+.portRow{
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+	.portRow{
+		padding-bottom: 5px;
+
+	}
+}
+
+
+/* =========================== Contact =========================== */
+#contact{
+	background-color: #fff;
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+
+.contactHead{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	text-transform: capitalize;
+	color: #000000;
+}
+
+.contactText{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	letter-spacing: .6px;
+	color: #000000;
+}
+
+.contactText a	 { color: #C75905;  font-weight: 500;}
+.contactText a:hover { color: #AB4D04; font-weight: 500; text-decoration: underline;}
+
+.btn-primary {
+	border-color: #41314A;
+	color: #FFFFFF;
+	background-color: #5E5067;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #74627f;
+	border: 1px solid #41314A;
+}
+
+/* all */
+::-webkit-input-placeholder { font-family: FontAwesome, Raleway; }
+::-moz-placeholder { font-family: FontAwesome, Raleway; } /* firefox 19+ */
+:-ms-input-placeholder { font-family: FontAwesome, Raleway; } /* ie */
+input:-moz-placeholder { font-family: FontAwesome, Raleway; }
+
+.errorMsg{
+	width: 100%;
+	height: 40px;
+	font-size: 1.5em;
+	color: red;
+}
+
+.successMsg{
+	width: 100%;
+	height: 40px;
+	font-size: 1.5em;
+	color: green;
+}
+
+div.panel-heading h3 {
+	padding-top: 25px;
+	text-transform: none !important;
+}
+
+.recaptcha_only_if_image p{
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+.recaptcha_only_if_audio p{
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+/* =========================== SOCIAL =========================== */
+
+.social{
+	background-color: transparent;
+	/*padding-bottom: 10px;*/
+}
+
+@media screen and (min-width: 1195px) {
+	.social{
+		padding-top: 30px;
+		/*padding-bottom: 30spx;*/
+	}
+}
+
+/*@media screen and (min-width: 768px){*/
+	/*.widget{*/
+		/*float: right;*/
+	/*}*/
+/*}*/
+
+@media screen and (max-width: 320px){
+	.widget{
+		margin: 0;
+		padding: 0;
+		/*padding-right: -15px;*/
+	}
+
+	iframe {
+		-moz-transform: scale(0.88, 0.88);
+		-webkit-transform: scale(0.88, 0.88);
+		-o-transform: scale(0.88, 0.88);
+		-ms-transform: scale(0.88, 0.88);
+		transform: scale(0.88, 0.88);
+		-moz-transform-origin: top center;
+		-webkit-transform-origin: top center;
+		-o-transform-origin: top center;
+		-ms-transform-origin: top center;
+		transform-origin: top center;
+	}
+}
+
+.btn {
+	text-transform: capitalize;
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.btn-default {
+	border: 1px solid white;
+	color: #FFFFFF;
+	background-color: #41314a;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+	border: 1px solid #41314a;
+	outline: 0;
+	color: #41314a;
+	background-color: white;
+	font-weight: 400;
+}
+
+/* =========================== FOOTER =========================== */
+
+footer{
+	font-family: 'Satisfy', cursive;
+	font-size: 2.8em;
+	color: #fff;
+	background-color: #41304B;
+	text-align: center;
+}
+
+.footerText {
+	/*margin-top: 25px;*/
+}
