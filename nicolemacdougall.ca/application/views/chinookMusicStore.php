@@ -55,12 +55,12 @@
                 </div><!--end row-->
 
                 <div class="row">
-                    <img src="<?php echo site_url('assets/img/chinookMusicStore/chinookMusicStoreAjaxSearch.png');?>" alt="ajax"/>
+                    <img src="<?php echo site_url('assets/img/chinookMusicStore/ajaxSearch.png');?>" alt="ajax"/>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-6 col-med-6 col-sm-6">
-                        <img src="<?php echo site_url('assets/img/chinookMusicStore/chinookMusicStoreCart.png');?>" alt="ajax"/>
+                        <img src="<?php echo site_url('assets/img/chinookMusicStore/storeCart.png');?>" alt="ajax"/>
                     </div>
                     <div class="col-lg-6 col-med-6 col-sm-6">
                         <p>As datatables has Ajax built in, you can see the search for 'red hot' was successful in searching all fields for
