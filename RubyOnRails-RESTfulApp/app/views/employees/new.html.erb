@@ -1,0 +1,37 @@
+<%= form_for :employee, url: employees_path do |f| %>
+    <p>
+      <%= f.label :emp_no %><br>
+      <%= f.text_field :emp_no %>
+    </p>
+
+    <p>
+      <%= f.label :birth_date %><br>
+      <%= f.date_select(:birth_date, start_year: Date.current.year, end_year: 1920)%>
+    </p>
+
+    <p>
+      <%= f.label :first_name %><br>
+      <%= f.text_field :first_name %>
+    </p>
+
+    <p>
+      <%= f.label :last_name %><br>
+      <%= f.text_field :last_name %>
+    </p>
+
+    <p>
+      <%= f.label :gender %><br>
+      <%= select_tag(:gender, options_for_select([['Male', 'M'],['Female','F']]))%>
+    </p>
+
+    <p>
+      <%= f.label :hire_date %><br>
+      <%= f.date_select :hire_date %>
+    </p>
+
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>
+
+<%= link_to 'Back', employees_path %>

@@ -1,0 +1,42 @@
+<h1>Employees</h1>
+
+<% if user_signed_in? %>
+    <li>
+      <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+    </li>
+<% else %>
+    <li>
+      <%= link_to('Login', new_user_session_path)  %>
+    </li>
+<% end %>
+<br />
+<%= link_to 'New Employee', new_employee_path %>
+<br />
+<p><%= will_paginate @employees %></p>
+<br />
+<table>
+  <tr>
+    <th>Emp No</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @employees.each do |employee| %>
+      <tr>
+        <td><%= employee.emp_no %></td>
+        <td><%= employee.first_name %></td>
+        <td><%= employee.last_name %></td>
+        <td><%= link_to employee_path(employee) do%><%= image_tag "mg.png" %><% end %></td>
+        <td><%= link_to edit_employee_path(employee) do%><%= image_tag "edit.png" %><% end %></td>
+        <td><%= link_to employee_path(employee),
+                        method: :delete,
+                        data: { confirm: 'Are you sure?' } do%>
+              <%= image_tag "destroy.png" %>
+          <%end%>
+        </td>
+      </tr>
+  <% end %>
+</table>

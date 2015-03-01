@@ -38,8 +38,8 @@
       <file leaf-file-name="chinookMusicStore.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/chinookMusicStore.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46502057" vertical-offset="591" max-vertical-offset="1320">
-              <caret line="62" column="85" selection-start-line="62" selection-start-column="85" selection-end-line="62" selection-end-column="85" />
+            <state vertical-scroll-proportion="0.23868313" vertical-offset="591" max-vertical-offset="1320">
+              <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -435,8 +435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/chinookMusicStore.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46502057" vertical-offset="591" max-vertical-offset="1320">
-          <caret line="62" column="85" selection-start-line="62" selection-start-column="85" selection-end-line="62" selection-end-column="85" />
+        <state vertical-scroll-proportion="0.23868313" vertical-offset="591" max-vertical-offset="1320">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
           <folding />
         </state>
       </provider>
