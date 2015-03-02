@@ -206,12 +206,12 @@ section.bg-1 {
 }
 
 .page-content a{
-    color: #41304B;
+    color: #E7875D;
 }
 
 .page-content a:active,
 .page-content a:visited{
-    color: #E7875D;
+    color: #864A1F;
 }
 
 .item img{

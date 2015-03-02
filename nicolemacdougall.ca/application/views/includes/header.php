@@ -36,21 +36,17 @@
 
 
     <!-- Bootstrap Core CSS -->
-<!--    <link href="--><?php //echo site_url('assets/css/bootstrap.css'); ?><!--" rel="stylesheet">-->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Libraries -->
-<!--    <link rel="stylesheet" href="--><?php //echo site_url('assets/css/libs/animate.css'); ?><!--">-->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
     <link rel="stylesheet" href="<?php echo site_url('assets/css/libs/hoverEffects.css'); ?>">
-
 
     <!-- Custom CSS -->
     <link href="<?php echo site_url('assets/css/grayscale.css'); ?>" rel="stylesheet">
     <link href="<?php echo site_url('assets/css/styles.css'); ?>" rel="stylesheet">
 
     <!-- Custom Fonts -->
-<!--    <link href="--><?php //echo site_url('assets/font-awesome/css/font-awesome.min.css'); ?><!--" rel="stylesheet" type="text/css">-->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -62,18 +58,4 @@
 
     <!-- Google NoCaptcha Recaptcha -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
-
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-    <!-- Preloader -->
-<!--    --><?php //if(!isset ($this->session->userdata['loaded']) == "") : ?>
-        <script type="text/javascript">
-            //<![CDATA[
-            $(window).load(function() { // makes sure the whole site is loaded
-                $('#status').delay(500).fadeOut(); // will first fade out the loading animation
-                $('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
-                $('body').delay(500).css({'overflow':'visible'});
-            })
-        </script>
-<!--    --><?php //endif ?>
 </head>

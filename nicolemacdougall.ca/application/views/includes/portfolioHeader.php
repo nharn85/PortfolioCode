@@ -57,21 +57,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-    <!-- Preloader -->
-<!--    --><?php //if(!isset ($this->session->userdata['loaded'])) : ?>
-    <script type="text/javascript">
-        //<![CDATA[
-        $(window).load(function() { // makes sure the whole site is loaded
-            $('#status').delay(500).fadeOut(); // will first fade out the loading animation
-            $('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
-            $('body').delay(500).css({'overflow':'visible'});
-        })
-        //]]>
-    </script>
-<!--    --><?php //endif ?>
 </head>
 
 <body class="body" id="page-top">

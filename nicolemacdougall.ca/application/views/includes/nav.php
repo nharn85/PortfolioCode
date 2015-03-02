@@ -1,10 +1,8 @@
 <body class="page-top" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Preloader -->
-<?php //if(!isset ($this->session->userdata['loaded']) == "") : ?>
-    <div id="preloader">
-        <div id="status">&nbsp;</div>
+<div id="preloader">
+    <div id="status">&nbsp;</div>
     </div>
-<?php //endif ?>
 <div class="bgHeader">
 
 <!-- Navigation -->

@@ -3,14 +3,14 @@
 class Main extends CI_Controller
 {
 
-//    function __construct()
-//    {
-//        parent::__construct();
-////        $this->load->library('recaptcha');
-//        //$data['recaptcha_html'] = $this->recaptcha->recaptcha_get_html();
-////        $data['page'] = 'main/index';
-//
-//    }
+    function __construct()
+    {
+        parent::__construct();
+//        $this->load->library('recaptcha');
+        //$data['recaptcha_html'] = $this->recaptcha->recaptcha_get_html();
+//        $data['page'] = 'main/index';
+
+    }
 
     public function index()
     {
@@ -27,7 +27,6 @@ class Main extends CI_Controller
         $this->load->view('includes/contact', $data);
         $this->load->view('includes/footer');
 
-//        $this->session->set_userdata('loaded');
     }
 
     public function recaptcha()
