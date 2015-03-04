@@ -7,17 +7,6 @@
 </footer>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<!-- Preloader -->
-<script type="text/javascript">
-    $(document).ready(function() {
-        $(window).load(function () { // makes sure the whole site is loaded
-            $('#status').fadeOut(); // will first fade out the loading animation
-            $('#preloader').fadeOut(function(){ $(this).remove(); }); // will fade out the white DIV that covers the website.
-            $('body').css({'overflow': 'visible'});
-            $(this).remove();
-        });
-    });
-</script>
 <!-- Bootstrap Core JavaScript -->
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript -->
@@ -42,7 +31,18 @@
 
     ga('create', 'UA-59666621-1', 'auto');
     ga('send', 'pageview');
-
 </script>
+<!-- Preloader -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(window).load(function () { // makes sure the whole site is loaded
+            $('#status').fadeOut(); // will first fade out the loading animation
+            $('#preloader').fadeOut(function(){ $(this).remove(); }); // will fade out the white DIV that covers the website.
+            $('body').css({'overflow': 'visible'});
+            $(this).remove();
+        });
+    });
+</script>
+
 </body>
 </html>

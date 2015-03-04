@@ -26,16 +26,25 @@
 
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+<!--                        <p id="profileText" class="wow fadeInUp">-->
+<!--                            This is my personal portfolio. Here I will show you what my personal interests are,-->
+<!--                            some goals that I have, my resume, and portfolio.-->
+<!--                        </p>-->
+<!--                        <br /><br />-->
                         <p id="profileText" class="wow fadeInUp">
-                            This is my personal portfolio. Here I will show you what my personal interests are,
-                            some goals that I have, my resume and portfolio.
-                        </p>
-                        <br /><br />
-                        <p id="profileText" class="wow fadeInUp">
-                            I will be graduating NSCCs Web Programming program in the Spring of 2015 and hope to gain a career
+                            I've designed this site to introduce myself to you and showcase the work I've done while enrolled in
+                            the web development program at NSCC. After graduating in June 2015, I hope to gain a career
                             I love, with everything I have learned from the program. I will continue to grow and learn as I work as a
                             web developer/designer.
+                            <br /><br />
+                            If you would like to get ahold of me, please use my contact form below or feel free to connect with me on <a class="contactText" href="http://twitter.com/nmacd85" target="_blank">twitter</a>
+                            &amp; <a class="contactText" href="http://ca.linkedin.com/in/nmacdougall1" target="_blank">linkedIn</a>!
                         </p>
+
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -92,17 +101,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6">
                     <p class="skillsText wow bounceInLeft">
                         My interest in design and code started when I was a teenager. I would write HTML in notepad and do what I could with paint or
                         other free tools. I decided to hone these skills at the Centre for Arts &amp; Technology by learning the fundamentals and
                         principles of design. Time had passed and I felt I still needed something more. I finally enrolled at NSCC in the IT program, and will graduate
-                        with a concentration in Web Programming.
+                        with a concentration in Web Programming. I chose web development because I enjoy solving problems for the digital environment &amp; creating great user experiences,
+                        with pixel perfect attention to detail.
                         <br /><br />
-                        Currently, I would say my strongest skills are within HTML5/CSS3, Design, UX, and PHP. Upon graduation in the spring
-                        I will have also developed skills in Ruby/RubyOnRails, jQuery/JS as well as multiple frameworks.
+                        Currently, I would say my strong skills are within HTML5, CSS3, PHP, JavaScript, Photoshop CC, and Illustrator CC. Upon graduation in the Spring of 2015,
+                        I will have also developed skills in (but not limited to) RubyOnRails, jQuery, ASP.net, AngularJS, NodeJS, and EmberJS.
                         <br /><br />
-                        In my time at NSCC I have also recieved WHMIS and OH&amp;S certification, and participated in two Purple Ribbon Campaign ceremonies.
+                        In my time at NSCC I have also received WHMIS and OH&amp;S certification, participated in two Purple Ribbon Campaign ceremonies, and just recently
+                        spoke to prospective students about the IT program.
                         <br /><br />
 
                         <!-- Button trigger modal -->
@@ -126,6 +137,9 @@
                                     </div>
                                     <div class="modal-body">
                                         <div class="row">
+                                            <img src="<?php echo site_url('assets/img/02-2015testdrive.jpg');?>" class="modalImage" alt="Purple ribbon ceremony 2013"/>
+                                        </div>
+                                        <div class="row">
                                             <img src="<?php echo site_url('assets/img/purpleRibbon2013.jpg');?>" class="modalImage" alt="Purple ribbon ceremony 2013"/>
                                         </div>
                                         <div class="row">
@@ -140,12 +154,13 @@
                         </div>
                     </p>
                 </div>
-                    <div class="col-lg-5 col-md-5 wow bounceInRight" id="skillBox">
-                        <div class="skillItem"><div class="skillInner" id="sk1">HTML5 / CSS3</div></div>
-                        <div class="skillItem"><div class="skillInner" id="sk2">DESIGN / UX</div></div>
-                        <div class="skillItem"><div class="skillInner" id="sk3">ILLUSTRATOR / PHOTOSHOP</div></div>
-                        <div class="skillItem"><div class="skillInner" id="sk4">JQUERY/JS</div></div>
-                        <div class="skillItem"><div class="skillInner" id="sk5">PHP/MySQL</div></div>
+                    <div class="col-lg-5 col-md-6 col-sm-6 wow bounceInRight" id="skillBox">
+<!--                        <div class="skillItem wow bounceInRight"><div class="skillInner" id="sk1">HTML5 / CSS3</div></div>-->
+<!--                        <div class="skillItem wow bounceInRight" data-wow-delay="0.1s"><div class="skillInner" id="sk2">DESIGN / UX</div></div>-->
+<!--                        <div class="skillItem wow bounceInRight" data-wow-delay="0.1s"><div class="skillInner" id="sk3">ILLUSTRATOR / PHOTOSHOP</div></div>-->
+<!--                        <div class="skillItem wow bounceInRight" data-wow-delay="0.15s"><div class="skillInner" id="sk4">JQUERY/JS</div></div>-->
+<!--                        <div class="skillItem wow bounceInRight" data-wow-delay="0.20s"><div class="skillInner" id="sk5">PHP/MySQL</div></div>-->
+                        <img src="<?php echo site_url('assets/img/skills-1.png'); ?>" class="img-responsive" alt=""/>
                     </div>
             </div>
         </section>

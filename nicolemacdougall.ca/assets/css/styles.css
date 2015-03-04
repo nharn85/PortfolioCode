@@ -3,6 +3,7 @@
 /* ============================= PRE-LOADER =====================================  */
 body {
 	overflow: hidden;
+
 }
 
  /*Preloader*/
@@ -259,14 +260,13 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 	border-radius: 180px;
 }
 
-#profileText{
+#profileText {
 	text-align: justify;
 	margin-bottom: -10px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 	letter-spacing: .6px;
 	font-size: large;
-
 }
 
 /* =========================== Profile pt 2 =========================== */
@@ -321,7 +321,7 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: normal;
 	text-transform: capitalize;
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	padding: 0 20px 0 20px;
 }
 
@@ -430,8 +430,10 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 	color: #000000;
 }
 
-.contactText a	 { color: #C75905;  font-weight: 500;}
-.contactText a:hover { color: #AB4D04; font-weight: 500; text-decoration: underline;}
+a.contactText { color: #C75905;  font-weight: 500;}
+a.contactText :visited	 { color: #C75905;  font-weight: 500;}
+a.contactText :active	 { color: #C75905;  font-weight: 500;}
+a.contactText :hover { color: #AB4D04; font-weight: 500; text-decoration: underline;}
 
 .btn-primary {
 	border-color: #41314A;
