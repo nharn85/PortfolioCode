@@ -237,7 +237,7 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 
 /* =========================== Profile =========================== */
 #profile {
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -376,7 +376,7 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 #portfolio{
 	color: #fff;
 	background-color: transparent;
-	padding-top: 59px;
+	padding-top: 50px;
 	padding-bottom: 60px;
 	overflow-x: hidden;
 }
