@@ -246,7 +246,7 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 	font-weight: normal;
 	text-transform: capitalize;
 	font-size: 3.5rem;
-	padding: 0 0 50px 0;
+	padding: 30px 0 25px 0;
 }
 
 #profilePic{
@@ -254,7 +254,7 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 	max-width: 200px;
 	min-width: 150px;
 	margin-top: 0;
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 	-webkit-border-radius: 180px;
 	-moz-border-radius: 180px;
 	border-radius: 180px;
