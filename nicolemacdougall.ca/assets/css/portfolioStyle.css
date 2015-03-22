@@ -340,22 +340,29 @@ section.bg-1 {
 
 .social{
     background-color: transparent;
+    padding: 10px;
     /*padding-bottom: 10px;*/
 }
 
-@media screen and (min-width: 1195px) {
-    .social{
-        padding-top: 30px;
-        /*padding-bottom: 30spx;*/
+.social i{
+    padding-top: -3px;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 320px){
+    .widget{
+        margin: 0;
+        padding: 0;
+        /*padding-right: -15px;*/
     }
 }
 
 .btn {
     text-transform: capitalize;
     font-family: Raleway, sans-serif;
-    font-weight: lighter;
-    font-weight: 400;
-    letter-spacing: 1px;
+    font-size: 1.2em;
+    font-weight: 200;
+    letter-spacing: .75px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -364,16 +371,18 @@ section.bg-1 {
 .btn-default {
     border: 1px solid white;
     color: #FFFFFF;
-    background-color: #41314A;
+    background-color: #41314a;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #41314A;
-    outline: 0;
+    /*border: 1px solid #41314a;*/
+    /*outline: 0;*/
+    border: 1px solid white;
+
     color: #41314a;
     background-color: white;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 

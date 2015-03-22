@@ -58,20 +58,13 @@
 <div class="social gradient">
     <section class="text-center">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="http://ca.linkedin.com/in/nmacdougall1" class="btn btn-default btn-lg socialBtn" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                    <li>
-                        <a href="http://twitter.com/nmacd85" class="btn btn-default btn-lg socialBtn" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/nmacd85/PortfolioCode" class="btn btn-default btn-lg socialBtn" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+            <div class="text-center">
+                <a href="http://ca.linkedin.com/in/nmacdougall1" class="btn btn-social-icon btn-default btn-md socialBtn" target="_blank"><i class="fa fa-linkedin fa-fw"></i><span class="network-name hidden-xs">LinkedIn</span></a>
+                <a href="http://twitter.com/nmacd85" class="btn btn-social-icon btn-default btn-md socialBtn" target="_blank"><i class="fa fa-twitter fa-fw"></i><span class="network-name hidden-xs">Twitter</span></a>
+                <a href="http://instagram.com/nmacd85/" class="btn btn-social-icon btn-default btn-md socialBtn" target="_blank"><i class="fa fa-instagram fa-fw"></i><span class="network-name hidden-xs">Instagram</span></a>
+                <a href="https://github.com/nmacd85/PortfolioCode" class="btn btn-social-icon btn-default btn-md socialBtn" target="_blank"><i class="fa fa-github fa-fw"></i><span class="network-name hidden-xs">GitHub</span></a>
+            </div><!--end btn-group-->
+        </div><!--end row-->
     </section>
 </div>
 <!--<hr>-->

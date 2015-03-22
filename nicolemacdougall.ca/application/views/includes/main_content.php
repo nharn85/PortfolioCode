@@ -9,7 +9,7 @@
                     </h1>
                     <h1 class="intro-text">Web Developer &amp; Designer from Halifax, Nova Scotia</h1>
                     <a href="#profile" class="btn btn-circle page-scroll" id="circle">
-                        <i class="fa fa-angle-double-down animated" id="arrow"></i>
+                        <i class="fa fa-angle-double-down animated"id="arrow"></i>
                     </a>
                 </div>
             </div>
@@ -34,17 +34,12 @@
                         <p id="profileText" class="wow fadeInUp">
                             I've designed this site to introduce myself to you and showcase the work I've done while enrolled in
                             the web development program at NSCC. After graduating in June 2015, I hope to gain a career
-                            I love, with everything I have learned from the program. I will continue to grow and learn as I work as a
+                            I love, and put with everything I have learned from the program to use. I will continue to grow and learn as I work as a
                             web developer/designer.
                             <br /><br />
                             If you would like to get ahold of me, please use my contact form below or feel free to connect with me on <a class="contactText" href="http://twitter.com/nmacd85" target="_blank">twitter</a>
                             &amp; <a class="contactText" href="http://ca.linkedin.com/in/nmacdougall1" target="_blank">linkedIn</a>!
                         </p>
-
-
-
-
-
                     </div>
                 </div>
             </div>
@@ -72,17 +67,20 @@
                             <i class="fa fa-globe" id="globe"></i>
                             <p class="profile2Head">Why I chose the web</p>
                             <p class="profile2Text">
-                                The internet, as a medium, is very pliable with design and art. Being a web developer/designer has given me the
-                                opportunity to continue to learn and create at the same time.
+<!--                                The internet, as a medium, is very pliable with design and art. Being a web developer/designer has given me the-->
+<!--                                opportunity to continue to learn and create at the same time.-->
+                                As a designer I love communicating visually.<br />
+                                So, having an eye for layouts, colour schemes, and typography only enhances my skills as a front-end web developer.
                             </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 wow bounceIn animated" data-wow-delay="0.8s">
                         <div class="camera">
                             <i class="fa fa-camera" id="camera"></i>
-                            <p class="profile2Head">I love taking pictures</p>
+                            <p class="profile2Head">I love photography</p>
                             <p class="profile2Text">
-                                I like to find inspiration in everything. So, taking a photo of something is just logical to me since then I can either
+                                I like to find inspiration in everything. <br />
+                                Taking a photo of something is just logical to me since then I can either
                                 go back and relive the memory or simply use the colors in a palette for a design.
                             </p>
                         </div>
@@ -101,7 +99,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-5 col-sm-offset-1">
                     <p class="skillsText wow bounceInLeft">
                         My interest in design and code started when I was a teenager. I would write HTML in notepad and do what I could with paint or
                         other free tools. I decided to hone these skills at the Centre for Arts &amp; Technology by learning the fundamentals and
@@ -118,7 +116,7 @@
 
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#certificates">
-                            View certificates
+                            <i class="fa fa-certificate"></i> View certificates
                         </button>
 
                         <a href="<?php echo site_url("assets/nicolemacdougallresume2015.pdf");?>" target="_blank">
@@ -132,7 +130,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="fa fa-times-circle"></span></button>
                                         <h4 class="modal-title" id="certificates">Certificates</h4>
                                     </div>
                                     <div class="modal-body">
@@ -154,14 +152,13 @@
                         </div>
                     </p>
                 </div>
-                    <div class="col-lg-5 col-md-6 col-sm-6 wow bounceInRight" id="skillBox">
-<!--                        <div class="skillItem wow bounceInRight"><div class="skillInner" id="sk1">HTML5 / CSS3</div></div>-->
-<!--                        <div class="skillItem wow bounceInRight" data-wow-delay="0.1s"><div class="skillInner" id="sk2">DESIGN / UX</div></div>-->
-<!--                        <div class="skillItem wow bounceInRight" data-wow-delay="0.1s"><div class="skillInner" id="sk3">ILLUSTRATOR / PHOTOSHOP</div></div>-->
-<!--                        <div class="skillItem wow bounceInRight" data-wow-delay="0.15s"><div class="skillInner" id="sk4">JQUERY/JS</div></div>-->
-<!--                        <div class="skillItem wow bounceInRight" data-wow-delay="0.20s"><div class="skillInner" id="sk5">PHP/MySQL</div></div>-->
-                        <img src="<?php echo site_url('assets/img/skills-1.png'); ?>" class="img-responsive" alt=""/>
-                    </div>
+                <div class="col-lg-5 col-md-5 hidden-sm wow bounceInRight" id="skillBox">
+                    <img src="<?php echo site_url('assets/img/all-skills.svg'); ?>" class="img-responsive" alt="skills: languages, frameworks, db, apps, os, cms"/>
+                </div>
+                <div class="hidden-lg hidden-md col-sm-5 hidden-xs wow bounceInRight">
+                    <img src="<?php echo site_url('assets/img/left-skill.svg'); ?>" class="img-responsive" alt="skills: languages, db, os"/>
+                    <img src="<?php echo site_url('assets/img/right-skill.svg'); ?>" class="img-responsive" alt="skills: frameworks, apps, cms"/>
+                </div>
             </div>
         </section>
     </div>

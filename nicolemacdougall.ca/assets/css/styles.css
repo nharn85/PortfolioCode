@@ -47,25 +47,11 @@ body {
 /*h1   { font-size: 24px; font-size: 2.4rem; } *//* =24px */
 /*li   { font-size: 24px; font-size: 2.4rem; } *//* =24px */
 
-@media screen and (max-width: 400px){
-	#profile .content-section{
-		padding-top: 0;
-	}
-
-	#portfolio .content-section{
-		padding-top: 25px;
-	}
-
-	#profileHead{
-		margin-bottom: 0;
-	}
-}
-
 /* =========================== Background =========================== */
 .gradient{
 	z-index: -10;
 	background: linear-gradient(45deg, #41314a, #a66a68);
-	/*#9e6266, #a76e68,*/
+    /*#9e6266, #a76e68;*/
 		/*background: linear-gradient(90deg, #41314A, #a76e68,#c7254e,#219AB3);*/
  	background-size: 800% 100%;
 
@@ -238,7 +224,7 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 /* =========================== Profile =========================== */
 #profile {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #profileHead{
@@ -254,7 +240,7 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 	max-width: 200px;
 	min-width: 150px;
 	margin-top: 0;
-	margin-bottom: 70px;
+	margin-bottom: 60px;
 	-webkit-border-radius: 180px;
 	-moz-border-radius: 180px;
 	border-radius: 180px;
@@ -267,6 +253,25 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 	font-weight: normal;
 	letter-spacing: .6px;
 	font-size: large;
+}
+
+@media screen and (max-width: 480px){
+    #profile .content-section{
+        padding-top: 0;
+    }
+
+    #portfolio .content-section{
+        padding-top: 25px;
+    }
+
+    #profileHead{
+        margin-bottom: 0;
+    }
+
+    #profilePic{
+        width: 125px;
+        margin-bottom: 25px;
+    }
 }
 
 /* =========================== Profile pt 2 =========================== */
@@ -335,34 +340,44 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 
 }
 
-.skillItem{
-	text-align: left;
-	border: 2px solid #89565E;
-	color: #FFFFFF;
-	height: 45px;
-	width: 100%;
-	position: relative;
-	margin-bottom: 35px;
+/*.skillItem{*/
+	/*text-align: left;*/
+	/*border: 2px solid #89565E;*/
+	/*color: #FFFFFF;*/
+	/*height: 45px;*/
+	/*width: 100%;*/
+	/*position: relative;*/
+	/*margin-bottom: 35px;*/
+/*}*/
+
+/*.skillInner{*/
+	/*padding-top: 10px;*/
+	/*padding-left: 10px;*/
+	/*height: 100%;*/
+	/*background-color: #89565E;*/
+	/*font-size: medium;*/
+/*}*/
+
+/*#sk1{ width: 90%;}*/
+/*#sk2{ width: 85%;}*/
+/*#sk3{ width: 95%;}*/
+/*#sk4{ width: 80%;}*/
+/*#sk5{ width: 85%;}*/
+
+/*#sk1.pull-right{ color: #000000;}*/
+
+@media screen and (max-width: 1215px) and (min-width: 768px){
+    .downloadBtn{
+        margin-top: 20px;
+    }
 }
-
-.skillInner{
-	padding-top: 10px;
-	padding-left: 10px;
-	height: 100%;
-	background-color: #89565E;
-	font-size: medium;
-}
-
-#sk1{ width: 90%;}
-#sk2{ width: 85%;}
-#sk3{ width: 95%;}
-#sk4{ width: 80%;}
-#sk5{ width: 85%;}
-
-#sk1.pull-right{ color: #000000;}
 
 .modalImage{
 	width: 100%;
+}
+
+.fa-times-circle{
+    margin-top: 7px;
 }
 
 @media screen and (max-width: 400px){
@@ -489,24 +504,16 @@ div.panel-heading h3 {
 }
 
 /* =========================== SOCIAL =========================== */
-
 .social{
 	background-color: transparent;
+    padding: 10px;
 	/*padding-bottom: 10px;*/
 }
 
-@media screen and (min-width: 1195px) {
-	.social{
-		padding-top: 30px;
-		/*padding-bottom: 30spx;*/
-	}
+.social i{
+    padding-top: -3px;
+    font-size: 1.3em;
 }
-
-/*@media screen and (min-width: 768px){*/
-	/*.widget{*/
-		/*float: right;*/
-	/*}*/
-/*}*/
 
 @media screen and (max-width: 320px){
 	.widget{
@@ -532,8 +539,9 @@ div.panel-heading h3 {
 .btn {
 	text-transform: capitalize;
 	font-family: Raleway, sans-serif;
+    font-size: 1.2em;
 	font-weight: 400;
-	letter-spacing: 1px;
+	letter-spacing: .75px;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
@@ -547,8 +555,10 @@ div.panel-heading h3 {
 
 .btn-default:hover,
 .btn-default:focus {
-	border: 1px solid #41314a;
-	outline: 0;
+	/*border: 1px solid #41314a;*/
+	/*outline: 0;*/
+    border: 1px solid white;
+
 	color: #41314a;
 	background-color: white;
 	font-weight: 400;

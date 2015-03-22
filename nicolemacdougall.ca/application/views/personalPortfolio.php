@@ -37,9 +37,6 @@
             <li>
                 <span>Website:</span> <a href="http://www.nicolemacdougall.ca">www.nicolemacdougall.ca</a>
             </li>
-            <li>
-                <span>Git Repo:</span> <a href="https://github.com/nmacd85/PortfolioCode/tree/master/nicolemacdougall.ca" target="_blank">Code for nicolemacdougall.ca</a>
-            </li>
         </ul>
     </div>
     <div class="col-lg-7 col-md-7 content-area">
@@ -104,7 +101,7 @@
                 <div class="row">
                     <h2 id="final">The final product!</h2>
                     <p>I am very proud to say my site is a fully functioning, single page, responsive design. </p>
-                    <img src="<?php echo site_url('assets/img/personalPortfolio/final.jpg');?>" alt="final product of website"/>
+                    <img src="<?php echo site_url('assets/img/personalPortfolio/final.png');?>" alt="final product of website"/>
                 </div>
 
             </div><!--end container-->
